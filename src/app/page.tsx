@@ -21,7 +21,7 @@ const productPreviews = [
     tag: "Heavy Flow",
     desc: "Extra-thick core for heavy days. Available in retail and bulk packaging.",
     bg: blush,
-    image: "/images/Maxi-Pad.png",
+    image: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/Maxi-Pad.png`,
   },
   {
     id: "ultra",
@@ -29,7 +29,7 @@ const productPreviews = [
     tag: "Daily Comfort",
     desc: "Slim, discreet, and breathable. Ideal for daily wear and institutional supply.",
     bg: warm,
-    image: "/images/Ultra-thin-pad.png",
+    image: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/Ultra-thin-pad.png`,
   },
 ];
 
@@ -82,7 +82,7 @@ export default function Home() {
 
       <section className="hero-grid" style={{ overflow: "hidden" }}>
         <Image
-          src="/images/hero_bg_1.png"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/hero_bg_1.png`}
           alt=""
           fill
           priority

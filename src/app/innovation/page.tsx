@@ -44,7 +44,7 @@ export default function Innovation() {
 
       <section id="process" className="section-py" style={{ position: "relative", overflow: "hidden", background: cream }}>
         <Image
-          src="/images/hero_bg_3.png"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/hero_bg_3.png`}
           alt=""
           fill
           sizes="100vw"

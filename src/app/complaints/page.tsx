@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, FormEvent } from "react";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { AlertCircle, FileText, Clock, Shield, CheckCircle } from "lucide-react";
 import { rose, cream, warm, brown, muted, line } from "@/lib/colors";
@@ -334,7 +335,7 @@ export default function Complaints() {
                   />
                   <span>
                     I consent to HerChoice collecting and using the information above to investigate and resolve my complaint, in accordance with the{" "}
-                    <a href="/privacy" style={{ color: rose, textDecoration: "underline" }}>Privacy Policy</a>.
+                    <Link href="/privacy" style={{ color: rose, textDecoration: "underline" }}>Privacy Policy</Link>.
                   </span>
                 </label>
 

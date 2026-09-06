@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { Briefcase, Users, Heart, GraduationCap, Send, Clock, FileText, UserCheck, ArrowRight, ArrowDown, ChevronDown, Quote } from "lucide-react";
 import { useState } from "react";
@@ -525,9 +526,9 @@ export default function Careers() {
                       </div>
 
                       <div className="job-detail-footer">
-                        <a href="/contact" className="btn-primary" style={{ padding: "0.7rem 1.75rem", fontSize: "0.85rem" }}>
+                        <Link href="/contact" className="btn-primary" style={{ padding: "0.7rem 1.75rem", fontSize: "0.85rem" }}>
                           Apply for this role &rarr;
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </motion.div>
@@ -540,9 +541,9 @@ export default function Careers() {
             <p style={{ color: muted, fontSize: "0.95rem", marginBottom: "1.5rem" }}>
               Don&apos;t see a role that fits? Send us your resume and we&apos;ll reach out when a match opens.
             </p>
-            <a href="/contact" className="btn-primary">
+            <Link href="/contact" className="btn-primary">
               Send Your Resume &rarr;
-            </a>
+            </Link>
           </motion.div>
         </div>
       </section>

@@ -45,7 +45,7 @@ export default function Impact() {
         }}
       >
         <Image
-          src="/images/hero_bg_2.png"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/hero_bg_2.png`}
           alt=""
           fill
           sizes="100vw"

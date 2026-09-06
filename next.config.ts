@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const isStaticExport = process.env.GITHUB_PAGES === "true";
+const repositoryName = process.env.GITHUB_REPOSITORY?.split("/")[1] ?? "project-b2b-website-demo";
+const basePath = isStaticExport ? `/${repositoryName}` : "";
 
 const securityHeaders = [
   { key: "X-Frame-Options", value: "SAMEORIGIN" },
@@ -23,7 +25,15 @@ const nextConfig: NextConfig = {
     formats: isStaticExport ? undefined : ["image/avif", "image/webp"],
     unoptimized: isStaticExport,
   },
-  ...(isStaticExport && { output: "export" }),
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
+  },
+  ...(isStaticExport && {
+    output: "export",
+    basePath,
+    assetPrefix: basePath,
+    trailingSlash: true,
+  }),
   ...(!isStaticExport && {
     async headers() {
       return [

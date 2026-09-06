@@ -15,7 +15,7 @@ const products = [
     desc: "Engineered with a multi-layer absorbent core that locks in fluid instantly. The extra-wide back provides complete leak protection — even overnight.",
     features: ["Extra-thick absorbent core", "Cotton-soft top sheet", "Leak-lock side barriers", "Wide back coverage", "Individually sealed"],
     bg: blush,
-    image: "/images/Maxi-Pad.png",
+    image: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/Maxi-Pad.png`,
   },
   {
     id: "ultra",
@@ -25,7 +25,7 @@ const products = [
     desc: "Ultra-slim design that moves with you. Despite its slim profile, advanced gel technology absorbs flow rapidly — keeping you dry and fresh all day.",
     features: ["Ultra-slim 3mm profile", "Gel-lock technology", "Breathable cover layer", "Flexible body-fit wings", "Odor control"],
     bg: warm,
-    image: "/images/Ultra-thin-pad.png",
+    image: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/Ultra-thin-pad.png`,
   },
 ];
 
