@@ -50,9 +50,9 @@ const articles = [
   {
     category: "Product",
     date: "October 2025",
-    title: "Cozy-lite Range Receives Dermatological Certification",
+    title: "Cozy-Lite Range Receives Dermatological Certification",
     excerpt:
-      "Our Cozy-lite product line has been independently certified as dermatologically tested and safe for sensitive skin.",
+      "Our Cozy-Lite product line has been independently certified as dermatologically tested and safe for sensitive skin.",
     color: cream,
   },
   {

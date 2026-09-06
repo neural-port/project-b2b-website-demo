@@ -4,7 +4,7 @@
 
 A polished, production-grade demo website for a sanitary hygiene manufacturer. Built as a recruiter-facing portfolio piece to showcase full-stack engineering, accessibility, security, and compliance standards.
 
-> **Note:** All branding uses the fictional company name "HerChoice" with product brands "Live care" (premium maxi) and "Cozy-lite" (standard ultra-thin). Facility details, contact information, and testimonials are generic placeholders. This is a UI/UX demo — the contact form does not send real email in static mode.
+> **Note:** All branding uses the fictional company name "HerChoice" with product brands "Live-Care" (premium maxi) and "Cozy-Lite" (standard ultra-thin). Facility details, contact information, and testimonials are generic placeholders. This is a UI/UX demo — the contact form does not send real email in static mode.
 
 ---
 
@@ -40,7 +40,7 @@ A B2B2C positioning that serves two audiences:
 |------|-------|---------|
 | Home | `/` | Hero, trust badges, product preview, values, stats, testimonials, CTA |
 | About | `/about` | Company story, mission/vision/values, scale stats |
-| Products | `/products` | Live care and Cozy-lite product details, comparison table, distributor CTA |
+| Products | `/products` | Live-Care and Cozy-Lite product details, comparison table, distributor CTA |
 | Innovation | `/innovation` | 4-step manufacturing process on image background, ISO certification banner |
 | Impact | `/impact` | Social impact metrics, accessibility and sustainability pillars, partner CTA |
 | Manufacturing | `/manufacturing` | Technical material specs, 6-step production timeline, 8 certifications |
@@ -113,7 +113,7 @@ To be clear on the division of work: **the developer (Gauresh) acted as the syst
 The development process followed this workflow:
 
 1. **Project scaffolding** — Next.js app created with `create-next-app`, then progressively customized
-2. **Branding generalization** — original Caphealthy Pharma references replaced with fictional "HerChoice" branding with product brands "Live care" and "Cozy-lite", facility details changed to `ABC Industrial Estate, Goa — 403XXX, India`
+2. **Branding generalization** — original Caphealthy Pharma references replaced with fictional "HerChoice" branding with product brands "Live-Care" and "Cozy-Lite", facility details changed to `ABC Industrial Estate, Goa — 403XXX, India`
 3. **B2C to B2B2C repositioning** — homepage rewritten to serve both business buyers (distributors, NGOs, procurement) and consumers, with CTAs like "Partner With Us" and "Request a Quote"
 4. **Visual refinement** — pink palette applied, pad SVG artwork removed, hero image positioning tuned for mobile at approximately 75% from left
 5. **Page-by-page audit** — every page audited and rewritten for dead code, naming, indentation, responsive behavior, and accessibility
@@ -125,7 +125,7 @@ The development process followed this workflow:
 
 - **Why dual-mode?** Recruiters view the site on GitHub Pages (static), but the project should remain deployable to Vercel with a working API. Conditional export in `next.config.ts` achieves both without duplicating code.
 - **Why no database?** This is a recruiter demo. The contact form is UI-only in static mode. The API route exists for future dynamic deployment but no database is wired.
-- **Why fictional branding?** The project is a portfolio piece. "HerChoice" with product brands "Live care" and "Cozy-lite" gives the demo a realistic feel while remaining clearly fictional.
+- **Why fictional branding?** The project is a portfolio piece. "HerChoice" with product brands "Live-Care" and "Cozy-Lite" gives the demo a realistic feel while remaining clearly fictional.
 - **Why Cormorant Garamond for everything?** It gives a premium, editorial feel that works for both display headings and body copy — a common pattern in luxury and healthcare branding. Using a single font also simplifies the design system.
 - **Why no card lift animations?** The developer chose shadow and border changes over vertical transforms for a more grounded, professional feel suitable for B2B audiences.
 
@@ -643,7 +643,7 @@ This software and associated documentation files (the "Software") are provided s
 
 ### Branding Notice
 
-All branding in this project uses the fictional company name "HerChoice" with product brands "Live care" (premium maxi) and "Cozy-lite" (standard ultra-thin). Facility details, contact information, testimonials, and product specifications are fictional placeholders created for demonstration purposes only. No real company, person, or product is represented.
+All branding in this project uses the fictional company name "HerChoice" with product brands "Live-Care" (premium maxi) and "Cozy-Lite" (standard ultra-thin). Facility details, contact information, testimonials, and product specifications are fictional placeholders created for demonstration purposes only. No real company, person, or product is represented.
 
 ### Disclaimer of Warranty
 

@@ -9,7 +9,7 @@ import { rose, blush, cream, warm, brown, muted, line } from "@/lib/colors";
 const products = [
   {
     id: "maxi",
-    name: "Live care",
+    name: "Live-Care",
     badge: "Heavy Flow",
     tagline: "Maximum protection for heavy days.",
     desc: "Engineered with a multi-layer absorbent core that locks in fluid instantly. The extra-wide back provides complete leak protection — even overnight.",
@@ -19,7 +19,7 @@ const products = [
   },
   {
     id: "ultra",
-    name: "Cozy-lite",
+    name: "Cozy-Lite",
     badge: "Daily Comfort",
     tagline: "Invisible comfort for regular days.",
     desc: "Ultra-slim design that moves with you. Despite its slim profile, advanced gel technology absorbs flow rapidly — keeping you dry and fresh all day.",
@@ -166,10 +166,10 @@ export default function Products() {
                       Feature
                     </th>
                     <th scope="col" style={{ textAlign: "center", padding: "1.25rem 1.5rem", fontSize: "0.75rem", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.12em", color: rose, fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
-                      Live care
+                      Live-Care
                     </th>
                     <th scope="col" style={{ textAlign: "center", padding: "1.25rem 1.5rem", fontSize: "0.75rem", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.12em", color: rose, fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
-                      Cozy-lite
+                      Cozy-Lite
                     </th>
                   </tr>
                 </thead>

@@ -17,7 +17,7 @@ const trustBadges = [
 const productPreviews = [
   {
     id: "maxi",
-    name: "Live care",
+    name: "Live-Care",
     tag: "Heavy Flow",
     desc: "Extra-thick core for heavy days. Available in retail and bulk packaging.",
     bg: blush,
@@ -25,7 +25,7 @@ const productPreviews = [
   },
   {
     id: "ultra",
-    name: "Cozy-lite",
+    name: "Cozy-Lite",
     tag: "Daily Comfort",
     desc: "Slim, discreet, and breathable. Ideal for daily wear and institutional supply.",
     bg: warm,
@@ -67,7 +67,7 @@ const testimonials = [
   {
     name: "Priya Sharma",
     role: "Consumer, Bengaluru",
-    quote: "Live care is the first pad that actually lasts through my heaviest day without a single leak. I finally feel confident at work.",
+    quote: "Live-Care is the first pad that actually lasts through my heaviest day without a single leak. I finally feel confident at work.",
   },
   {
     name: "Anita Desai",
@@ -188,8 +188,8 @@ export default function Home() {
                 fontWeight: 500,
               }}
             >
-              Live care <span style={{ color: rose, opacity: 0.5 }}>&</span><br />
-              Cozy-lite
+              Live-Care <span style={{ color: rose, opacity: 0.5 }}>&</span><br />
+              Cozy-Lite
             </h2>
 
             <p

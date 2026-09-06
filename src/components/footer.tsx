@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 const productLinks = [
-  { label: "Live care", href: "/products#maxi" },
-  { label: "Cozy-lite", href: "/products#ultra" },
+  { label: "Live-Care", href: "/products#maxi" },
+  { label: "Cozy-Lite", href: "/products#ultra" },
 ];
 
 const companyLinks = [

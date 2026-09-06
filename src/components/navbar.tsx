@@ -1,11 +1,12 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import { rose, cream, muted, line, sand } from "@/lib/colors";
+import { rose, cream, muted, line } from "@/lib/colors";
 
 const links = [
   { label: "Home", href: "/" },
@@ -45,31 +46,16 @@ export default function Navbar() {
     >
       <div className="wrap flex items-center justify-between" style={{ height: "72px" }}>
 
-        <Link href="/" className="flex flex-col leading-none group" aria-label="HerChoice — Home">
-          <span
-            style={{
-              fontFamily: '"Cormorant Garamond", Georgia, serif',
-              color: rose,
-              fontSize: "1.4rem",
-              fontWeight: 600,
-              letterSpacing: "-0.01em",
-              transition: "opacity 0.3s ease",
-            }}
+        <Link href="/" className="group" aria-label="HerChoice — Home">
+          <Image
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/logo.png`}
+            alt="HerChoice"
+            width={506}
+            height={137}
+            priority
+            style={{ width: "clamp(8.5rem, 15vw, 10rem)", height: "auto", display: "block", transition: "opacity 0.3s ease" }}
             className="group-hover:opacity-80"
-          >
-            HerChoice
-          </span>
-          <span
-            style={{
-              fontFamily: '"Cormorant Garamond", Georgia, serif',
-              color: sand,
-              fontSize: "0.6rem",
-              letterSpacing: "0.2em",
-              textTransform: "uppercase",
-            }}
-          >
-            For Her. For Health.
-          </span>
+          />
         </Link>
 
         <div className="hidden lg:flex items-center gap-6">
