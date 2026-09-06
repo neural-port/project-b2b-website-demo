@@ -1,0 +1,12 @@
+export const rose = '#D6336C';
+export const roseDeep = '#B0285A';
+export const roseLight = '#FF4081';
+export const blush = '#FFB6C1';
+export const cream = '#FFF5F8';
+export const warm = '#FFF0F3';
+export const brown = '#2D1520';
+export const muted = '#8B5A6B';
+export const line = '#F5DDE6';
+export const gold = '#c9a96e';
+export const sand = '#D4A5B0';
+export const parchment = '#F0D5DD';
