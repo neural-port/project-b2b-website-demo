@@ -1,5 +1,7 @@
 # HerChoice — B2B2C Sanitary Hygiene Website Demo
 
+**Live site:** [https://neural-port.github.io/project-b2b-website-demo/](https://neural-port.github.io/project-b2b-website-demo/)
+
 A polished, production-grade demo website for a sanitary hygiene manufacturer. Built as a recruiter-facing portfolio piece to showcase full-stack engineering, accessibility, security, and compliance standards.
 
 > **Note:** All branding uses the fictional company name "HerChoice" with product brands "Live care" (premium maxi) and "Cozy-lite" (standard ultra-thin). Facility details, contact information, and testimonials are generic placeholders. This is a UI/UX demo — the contact form does not send real email in static mode.
